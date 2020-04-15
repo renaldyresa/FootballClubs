@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorSubTitle">#676464</color>
+    <color name="colorBackgroundBar">#605E5E</color>
+    <color name="colorAttackBar">#F30808</color>
+    <color name="colorAttackBarDark">#9E0505</color>
+    <color name="colorMidfieldBar">#02E30E</color>
+    <color name="colorMidfieldBarDark">#037C0A</color>
+    <color name="colorDefenceBar">#0240FB</color>
+    <color name="colorDefenceBarDark">#04227C</color>
+</resources>

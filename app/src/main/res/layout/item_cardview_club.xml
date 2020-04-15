@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            tools:src="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/TextContent"
+            android:layout_toEndOf="@+id/img_item_photo"
+            android:layout_toRightOf="@+id/img_item_photo"
+            tools:text="@string/tv_name_club"/>
+
+        <TextView
+            android:id="@+id/tv_country"
+            style="@style/TextContent.Subtitle"
+            android:layout_toEndOf="@+id/img_item_photo"
+            android:layout_toRightOf="@+id/img_item_photo"
+            android:layout_below="@+id/tv_name"
+            tools:text="@string/tv_country" />
+
+        <TextView
+            android:id="@+id/tv_detail"
+            style="@style/TextContent.Detail"
+            android:layout_toEndOf="@+id/img_item_photo"
+            android:layout_toRightOf="@+id/img_item_photo"
+            android:layout_below="@+id/tv_country"
+            android:maxLines="4"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            tools:text="@string/tv_detail" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

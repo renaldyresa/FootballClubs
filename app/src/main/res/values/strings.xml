@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Football Clubs</string>
+    <string name="tv_detail">Detail</string>
+    <string name="tv_country">Negara Club Bola</string>
+    <string name="tv_name_club">Nama Club Bola</string>
+    <string name="tv_coach">Pelatih</string>
+    <string name="tv_attack">Attack</string>
+    <string name="tv_power">Power</string>
+    <string name="tv_midfield">Midfield</string>
+    <string name="tv_defence">Defence</string>
+    <string name="tv_champions">Champions</string>
+    <string name="tv_europa">Europa</string>
+    <string name="tv_txt_coach">Coach</string>
+    <string name="tv_email">resarenaldy77@gmail.com</string>
+    <string name="tv_name">Resa Renaldy</string>
+</resources>
